@@ -121,7 +121,6 @@ def draw_graph():
 
 if __name__ == '__main__':
     password = sys.argv[0]
-    # password = 'affinity'
     # print(wifi_mac(password))
     print(find_channel(password))
     get_color()
